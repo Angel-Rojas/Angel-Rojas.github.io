@@ -33,7 +33,7 @@ p#nav {
 }
 nav.nav {
 	position: fixed;
-	padding-top: 10px;
+	/*padding-top: 10px;*/
 }
 ul#nav {
 	list-style-type: none;
