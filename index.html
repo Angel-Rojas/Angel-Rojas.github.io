@@ -4,9 +4,16 @@
 <title>Angel Resume</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+<!--
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+-->
 <link rel="stylesheet" type="text/css" href="style.css">
 <style>
 body {
@@ -37,16 +44,16 @@ div.col-sm-9 div {
 
   <div class="container" style="width: 80%; max-width: 80%;">
     <div class="row">
-      <nav class="col-sm-3" id="myScrollspy" style="background-color:rgb(242, 243, 247);">
-        <ul class="nav nav-pills nav-stacked">
+      <nav class="navbar bg-light" id="myScrollspy" style="background-color:rgb(242, 243, 247);">
 
-            <div class="text-center">
+            <!--<div class="text-center"> -->
             <img src="/imgs/me.jpg" class="img-circle" alt="Cinque Terre" width="150" height="175" style="margin-top: 25px;">
             <h2 id="name">Angel Rojas</h2>
             <p id="nav">CSUB Comp. Science Graduate</p>
 
             <!--<nav class="nav" id="myScrollspy"> -->
-             <ul id="nav">
+            <ul class="navbar-nav" > <!-- class="nav nav-pills nav-stacked" -->
+              <!--<ul id="nav"> -->
               <li class="active"><a href="#About" class="active">About</a></li>
               <li class=""><a href="#Education" class="">Education</a></li>
               <li class=""><a href="#Experience" class="">Experience</a></li>
@@ -55,7 +62,7 @@ div.col-sm-9 div {
              </ul>
            <!--</nav> -->
 
-          </div>
+          <!-- </div> -->
 
           <li class="active"><a href="#Aboutme">Aboutme</a></li>
           <li><a href="#Education">Education</a></li>
@@ -69,7 +76,7 @@ div.col-sm-9 div {
           </li>
         </ul>
       </nav>
-      <div class="col-md-7" /*class="col-md-7"*/ style="background-color:lavenderblush; padding: 4em 0px 0px 3em;">
+      <div class="col-md-7" style="background-color:lavenderblush; padding: 4em 0px 0px 3em;">
         <div id="Aboutme">
           <span class="heading"> About Me </span>
           <h2 class="about" style="margin-bottom: 0px;">Aspiring Programmer</h2>
