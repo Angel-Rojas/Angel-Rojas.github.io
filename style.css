@@ -52,7 +52,7 @@ img.circle {
 	background-repeat: no-repeat;
 	position: relative;
 }
-div.col-sm-9 div {
+div.col-md-7 div {
 	height: 250px;
 	font-size: 28px;
 }
