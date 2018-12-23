@@ -20,14 +20,11 @@ h2#name {
 	font-weight: 700;
 	margin-bottom: .5em;
 }
-h2#about{
-	text-shadow: 0px 3px 3px gray;
-}
-h3#about {
+#heading,#about{
 	text-shadow: 0px 3px 3px gray;
 }
 p#desc {
-	text-shadow: 0px 3px 3px #a2a2a2;
+	text-shadow: 0px 3px 3px #b6b6b6;
 }
 p#nav {
  	font-family: "Quicksand", Arial, sans-serif;
