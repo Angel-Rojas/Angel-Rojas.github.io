@@ -9,6 +9,11 @@ body, html {
 	height: 100%;
 	font-family: "Quicksand", Arial, sans-serif;
 }
+#wrapper{
+	max-width: 80%;
+	margin: 0 auto;
+	/*height: auto;*/
+}
 h2#name {
 	font-family: "Playfair Display", Georgia, serif;
 	font-size: 22px;
@@ -19,20 +24,19 @@ p#nav {
  	font-family: "Quicksand", Arial, sans-serif;
 	line-height: 1.8;
 }
-#wrapper{
-	max-width: 80%;
-	margin: 0 auto;
-	/*height: auto;*/
+nav#nav {
+	padding-top: 10px;
 }
 ul#nav {
 	list-style-type: none;
- 	font-size: 12px;
+ 	font-size: 14px;
 	font-weight: 500;
 	/*text-transform: uppercase;*/
 	letter-spacing: 1px;
 	text-align: center;
 	line-height: 2.5;
-	padding-right: 25px;
+	padding-right: 23px;
+	margin-bottom: 100%;
 }
 img.circle {
 	background-size: cover;
