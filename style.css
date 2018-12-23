@@ -23,18 +23,20 @@ h2#name {
 p#nav {
  	font-family: "Quicksand", Arial, sans-serif;
 	line-height: 1.8;
+	color: gray;
 }
 nav#nav {
 	padding-top: 10px;
 }
 ul#nav {
 	list-style-type: none;
+	padding-top: 9px;
  	font-size: 14px;
 	font-weight: 500;
 	/*text-transform: uppercase;*/
 	letter-spacing: 1px;
 	text-align: center;
-	line-height: 2.5;
+	line-height: 2.4;
 	padding-right: 23px;
 	margin-bottom: 100%;
 }
